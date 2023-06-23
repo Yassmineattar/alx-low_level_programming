@@ -13,6 +13,6 @@ void print_numbers(void)
 		if (i == '2' || i == '4')
 			continue;
 		_putchar(i);
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
