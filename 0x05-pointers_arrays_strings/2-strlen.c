@@ -11,5 +11,5 @@ int _strlen(char *s)
 
 	while (s[i] != '\0')
 		i++;
-	_putchar(i + '0');
+	return (i);
 }
