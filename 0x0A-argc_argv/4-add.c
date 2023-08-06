@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	while (--argc)
 	{
 		for (c = argv[argc]; *c; c++)
-			if (*c < '0' || *c > '9')
+			if (!isdigit(*c))
 				return (printf("Error\n"), 1);
 		s += atoi(argv[argc]);
 	}
