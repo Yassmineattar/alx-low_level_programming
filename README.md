@@ -1,1 +1,1 @@
-<h2> C_TRAINING</h2>
+<h2> C_PRACTICING</h2>
