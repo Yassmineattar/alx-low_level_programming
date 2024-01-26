@@ -1,5 +1,5 @@
 NAME = school
-SRC = main.c school.c
+SRC = $(wildcard *.c)
 OBJ = $(SRC:%.c=%.o)
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra -pedantic
